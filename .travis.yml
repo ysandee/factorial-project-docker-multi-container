@@ -26,6 +26,7 @@ after_success:
     - docker push singhabhinav/factorial-project-express-server
     - docker push singhabhinav/factorial-project-worker
     - docker push singhabhinav/factorial-project-react-client
+# End of code
 
 # Tell Travis how to deploy code to AWS
 deploy:
