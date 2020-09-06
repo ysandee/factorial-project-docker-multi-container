@@ -5,7 +5,7 @@ services:
     - docker
 
 # Tell Travis to build the image using Dockerfile.dev
-# We are only testing react app as only it has testcases
+# We are only testing react app as only it has testcases all over again
 before_install:
     - docker build -t ysandee/react-test -f ./react-client/Dockerfile.dev ./react-client
 
