@@ -3,28 +3,28 @@
     "containerDefinitions": [
         {
             "name": "react-client",
-            "image": "singhabhinav/factorial-project-react-client",
+            "image": "ysandee/factorial-project-react-client",
             "hostname": "react-client",
             "essential": false,
             "memory": 100
         },
         {
             "name": "express-server",
-            "image": "singhabhinav/factorial-project-express-server",
+            "image": "ysandee/factorial-project-express-server",
             "hostname": "express-server",
             "essential": false,
             "memory": 100
         },
         {
             "name": "worker",
-            "image": "singhabhinav/factorial-project-worker",
+            "image": "ysandee/factorial-project-worker",
             "hostname": "worker",
             "essential": false,
             "memory": 100
         },
         {
             "name": "nginx",
-            "image": "singhabhinav/factorial-project-nginx",
+            "image": "ysandee/factorial-project-nginx",
             "hostname": "nginx",
             "essential": true,
             "portMappings": [
